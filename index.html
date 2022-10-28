@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darren</title>
+  <link rel="stylesheet" href="./index.css">
+  <script src="./index.js"></script> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,600;1,100&display=swap" rel="stylesheet"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,600;1,100&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<div class="site-container">
+  <div class="menu">
+    
+        <button class="btn"><a class ="btn" href="#my-music">My Music</a></button>
+
+        <button class="btn"><a class ="btn" href="#pictures">Pictures</a></button>
+
+        
+        <button class="btn">
+          <a class ="btn" href="#my-sites">My Site</a></button>
+          <button class="btn"><a class ="btn" href="#contact">Contact</a></button>
+          
+        </div>
+        <!-- top container  -->
+        <div class="top-container">
+          <div class="pic-container">
+            <img src="./img/darren2.jpg" alt="darren">
+            <h1>Darren Chilton</h1>
+    </div>
+    <p>Hello Nice to meet you and welcome to my little site to show you some pics of Tokyo and share some of my original music with you. I live in Tokyo. My name is Darren. I am from canada. I am an energetic, cheerful and hard-working English teacher. I live in Tokyo. I have taught English in Korea, China, Taiwan and now Japan for over 22 years. Before teaching English, I taught music in Canada. I also really enjoyed teaching music. However, teaching English in Japan is even more fascinating and a good learning experience for me. It's not just about Japan's wonderful culture and delicious food. From teaching English to children to teaching business English to adults, these experiences have given me a lot of ideas, materials and teaching skills. Grammar, pronunciation, daily conversation, TOEIC, business English, Eiken, etc. I will help you improve your English skills. </p>
+  
+</div>
+<!-- top container end -->
+  <div class="line">_______________________________</div>
+  <!-- about -->
+  <div class="about" id="about">
+    
+  </div>
+  <!-- about end -->
+
+  <!-- slide-show title -->
+  <div id="pictures">
+    <h2>Pictures in Japan</h2>
+    <p>There are so many wonderful places to visit in Tokyo and Kanagawa. Yokohama- Chinatown, Minato-Mirai,Yoyogi-koen,   Enoshima and Inagi.</p>
+  </div>
+  <!-- slide-show title end-->
+  <!-- slideshow -->
+  <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="./img/china-town-small.jpg" style="width:100%">
+        <div class="text">Yokohama-China Town</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="./img/enoshima-smaller.jpg" style="width:100%">
+        <div class="text">Kanagawa, Enoshima</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="./img/inagi-smaller.jpg" style="width:100%">
+        <div class="text">Tokyo, Inagi</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="./img/minato-mirai-smaller.jpg" style="width:100%">
+        <div class="text">Change photo</div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="./img/meiji-jingu-shrine-smaller.jpg" style="width:100%">
+        <div class="text">meiji-jingu-shrine</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="./img/minato-mirai-smaller.jpg" style="width:100%">
+        <div class="text">Minato-Mirai</div>
+      </div>
+</div>
+<div>
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  
+</div>
+<!-- slideshow end -->
+<div class="line">_______________________________</div>
+
+<!-- my-music  -->
+  <div id="my-music" class="my-music" >
+    <h2 class="animate__animated animate__shakeY">My original jazz track</h2>
+    <h3>Ebullience</h3>
+    <p>This piece is a very energetic improvisational jazz rock track.I wrote, recorded, mixed and played guitars. Angel Ocando played drums.</p>
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/806893045&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/spectrum_one" title="Spectrum_one" target="_blank" style="color: #cccccc; text-decoration: none;">Spectrum_one</a> · <a href="https://soundcloud.com/spectrum_one/ebullience" title="Ebullience- new upload" target="_blank" style="color: #cccccc; text-decoration: none;">Ebullience- new upload</a>
+    </div>
+    <div class="line">_______________________________</div>
+    <h2>Find more of my music here.</h2>
+    <Button class="btn cta" id="soundCloud"><a href="https://www.soundcloud.com/spectrum_one" target="_blank " >My Music on Soundcloud</a></Button>
+  </div>
+  <!-- my music end  -->
+  <!-- my sites -->
+  <div class="line">_______________________________</div>
+  
+  <h2>Please check out my Teaching website here.</h2>
+  <div class="my-teaching-site">
+  <Button class="my-teaching-btn" id="soundCloud"><a href="https://www.tokyodarrenenglishlessons.com" target="_blank " >My English Teaching Website</a></Button>
+  </div>
+  <div class="line">_______________________________</div>
+ 
+  <div class="contact" id="contact">
+    <form action="action_page.php">
+
+      <label for="fname" class="pad">First Name</label>
+      <input type="text" class="input" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname" class="pad">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country"  class="pad">Country</label>
+      <select id="country" name="country" class="values">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject" class="pad"></label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit" class="values">
+  
+    </form>
+  </div>
+  <!-- contact  end -->
+</div>
+<div class="footer">
+ <p>&copy Darren Chilton 2022</p>
+</div>
+<!-- site container end  -->
+</body>
+</html>
+ 
